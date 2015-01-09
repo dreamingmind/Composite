@@ -11,5 +11,9 @@ abstract class LeafNode extends NodeController implements BrowseInterface {
 	public function index() {
 		$this->redirect($this->referer());		
 	}
+	
+	public function getChildren($id) {
+		return FALSE;
+	}
 
 }

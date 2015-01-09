@@ -12,5 +12,4 @@ abstract class BranchNode extends NodeController implements BrowseInterface {
 		$this->redirect('index');
 	}
 
-//put your code here
 }
